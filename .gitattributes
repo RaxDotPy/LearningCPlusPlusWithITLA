@@ -1,0 +1,11 @@
+server.py filter=lfs diff=lfs merge=lfs -text
+src_cpp filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+calculator.cpp filter=lfs diff=lfs merge=lfs -text
+verify_compile.py filter=lfs diff=lfs merge=lfs -text
+COPILOT_INSTRUCTIONS.md filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+PROJECT_GUIDE.md filter=lfs diff=lfs merge=lfs -text
+build_wasm.py filter=lfs diff=lfs merge=lfs -text
+public filter=lfs diff=lfs merge=lfs -text
+restructure_workspace.py filter=lfs diff=lfs merge=lfs -text
