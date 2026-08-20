@@ -1,0 +1,21 @@
+{
+  "name": "ITLA Retro Portfolio",
+  "short_name": "ITLA Port",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Interactive 1980s-style portfolio for Fundamentos de Programacion ITLA 2026.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

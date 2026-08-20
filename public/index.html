@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITLA 1980s Retro Portfolio</title>
+  <meta name="theme-color" content="#000000" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="ITLA Port" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #000000;
+      --text: #33ff00;
+      --accent: #ffdd33;
+      --shell: rgba(0, 0, 0, 0.88);
+      --panel: rgba(0, 0, 0, 0.96);
+      --border: rgba(51, 255, 0, 0.22);
+      --shadow: rgba(51, 255, 0, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+      background: radial-gradient(circle at top left, rgba(51, 255, 0, 0.08), transparent 25%),
+                  #000000;
+      color: var(--text);
+      font-family: 'VT323', monospace, monospace;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.06) 50%),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 4px, 100px 100%;
+      opacity: 0.45;
+      mix-blend-mode: screen;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(circle at 20% 20%, rgba(51, 255, 0, 0.16), transparent 16%),
+                  radial-gradient(circle at 80% 80%, rgba(255, 221, 51, 0.08), transparent 16%);
+      opacity: 0.6;
+      filter: blur(1px);
+    }
+
+    .page {
+      width: min(1400px, calc(100vw - 32px));
+      margin: 24px auto;
+      padding: 16px;
+    }
+
+    header {
+      margin-bottom: 16px;
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.92);
+      box-shadow: 0 0 40px var(--shadow);
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 3vw, 3rem);
+      letter-spacing: 0.1em;
+      color: var(--accent);
+    }
+
+    header p {
+      margin: 0;
+      color: rgba(51, 255, 0, 0.95);
+      line-height: 1.5;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .top-panel {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 1000px) {
+      .top-panel {
+        grid-template-columns: 1fr 420px;
+      }
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: inset 0 0 32px rgba(0, 255, 0, 0.04), 0 0 48px rgba(0, 255, 0, 0.08);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .panel::before {
+      content: attr(data-label);
+      position: absolute;
+      top: 14px;
+      left: 18px;
+      font-size: 0.85rem;
+      letter-spacing: 0.18em;
+      color: var(--accent);
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    .panel-content {
+      padding: 58px 24px 24px;
+    }
+
+    .terminal-shell {
+      padding: 18px 24px 24px;
+      min-height: 280px;
+      line-height: 1.45;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 1rem;
+      letter-spacing: 0.02em;
+    }
+
+    .terminal-shell .line {
+      margin: 0 0 0.5rem;
+    }
+
+    .terminal-shell .line.command {
+      color: var(--accent);
+    }
+
+    .panel-tree {
+      padding: 18px 24px 24px;
+      min-height: 240px;
+      line-height: 1.55;
+      overflow-y: auto;
+    }
+
+    .tree-entry,
+    .tree-file {
+      display: block;
+      padding: 6px 10px;
+      margin: 4px 0;
+      border-radius: 6px;
+      color: var(--text);
+      text-decoration: none;
+      transition: background 0.2s ease;
+      font-size: 0.98rem;
+    }
+
+    .tree-entry:hover,
+    .tree-file:hover {
+      background: rgba(51, 255, 0, 0.08);
+    }
+
+    .tree-entry {
+      color: var(--accent);
+      letter-spacing: 0.04em;
+    }
+
+    .tree-file {
+      padding-left: 18px;
+    }
+
+    .viewer {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 900px) {
+      .viewer {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .viewer .panel {
+      min-height: 380px;
+    }
+
+    .viewer pre {
+      margin: 0;
+      color: var(--text);
+      font-size: 0.95rem;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .command-line {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(0, 0, 0, 0.94);
+    }
+
+    .command-prompt {
+      min-width: 16ch;
+      color: var(--accent);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .command-input {
+      flex: 1;
+      border: none;
+      background: transparent;
+      color: var(--text);
+      font: inherit;
+      outline: none;
+      padding: 8px 0;
+    }
+
+    .command-input::placeholder {
+      color: rgba(51, 255, 0, 0.4);
+    }
+
+    .cursor {
+      animation: blink 1s steps(2, start) infinite;
+    }
+
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+
+    .help-list {
+      margin: 0;
+      padding-left: 1rem;
+      color: rgba(255, 221, 51, 0.9);
+    }
+
+    .help-list li {
+      margin-bottom: 0.4rem;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: rgba(51, 255, 0, 0.66);
+      text-align: center;
+    }
+
+    .install-banner {
+      display: none;
+      position: fixed;
+      left: 50%;
+      bottom: 22px;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.94);
+      border: 1px solid rgba(51, 255, 0, 0.3);
+      box-shadow: 0 0 32px rgba(51, 255, 0, 0.18);
+      border-radius: 14px;
+      padding: 14px 18px;
+      width: min(420px, calc(100% - 40px));
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 8px;
+      align-items: center;
+      color: var(--text);
+      z-index: 20;
+    }
+
+    .install-banner span {
+      font-size: 0.96rem;
+      opacity: 0.96;
+    }
+
+    .install-banner button {
+      border: 1px solid rgba(51, 255, 0, 0.3);
+      border-radius: 8px;
+      background: rgba(51, 255, 0, 0.08);
+      color: var(--text);
+      padding: 8px 12px;
+      cursor: pointer;
+      font: inherit;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .install-banner button:hover {
+      background: rgba(51, 255, 0, 0.16);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>ITLA Fundamentos 2026</h1>
+      <p>Retro terminal portfolio: browse a simulated command-line directory tree, read C++ project source, and run execution output in a split-screen CRT experience.</p>
+    </header>
+
+    <div class="grid top-panel">
+      <section class="panel" data-label="COMMAND SHELL">
+        <div class="panel-content terminal-shell" id="history" aria-live="polite"></div>
+        <div class="command-line">
+          <span class="command-prompt" id="prompt"></span>
+          <input class="command-input" id="commandInput" autocomplete="off" placeholder="Type: ls, cd, open, run, help" />
+          <span class="cursor">█</span>
+        </div>
+      </section>
+
+      <section class="panel" data-label="PROJECT TREE">
+        <div class="panel-tree" id="tree"></div>
+      </section>
+    </div>
+
+    <div class="grid viewer">
+      <section class="panel" data-label="SOURCE CODE">
+        <div class="panel-content"><pre id="sourceDisplay"></pre></div>
+      </section>
+
+      <section class="panel" data-label="TERMINAL OUTPUT">
+        <div class="panel-content"><pre id="outputDisplay"></pre></div>
+      </section>
+    </div>
+
+    <div class="footer">Designed as an 80s CRT-inspired portfolio interface. Use the command prompt to explore the course archive.</div>
+  </div>
+
+  <div class="install-banner" id="installBanner">
+    <span>Install this portfolio as a web app for offline use.</span>
+    <button id="installButton">Install</button>
+    <button id="dismissInstall" aria-label="Dismiss install prompt">×</button>
+  </div>
+
+  <script>
+    const installBanner = document.getElementById('installBanner');
+    const installButton = document.getElementById('installButton');
+    const dismissInstall = document.getElementById('dismissInstall');
+
+    let deferredInstallPrompt = null;
+
+    function showInstallBanner() {
+      installBanner.style.display = 'grid';
+    }
+
+    function hideInstallBanner() {
+      installBanner.style.display = 'none';
+    }
+
+    function registerServiceWorker() {
+      if (!('serviceWorker' in navigator)) return;
+      navigator.serviceWorker.register('service-worker.js').catch(() => {});
+    }
+
+    installButton.addEventListener('click', async () => {
+      if (!deferredInstallPrompt) return;
+      deferredInstallPrompt.prompt();
+      const choice = await deferredInstallPrompt.userChoice;
+      deferredInstallPrompt = null;
+      hideInstallBanner();
+      if (choice.outcome === 'accepted') {
+        window.dispatchEvent(new CustomEvent('install:accepted'));
+      }
+    });
+
+    dismissInstall.addEventListener('click', () => {
+      hideInstallBanner();
+    });
+
+    window.addEventListener('beforeinstallprompt', event => {
+      event.preventDefault();
+      deferredInstallPrompt = event;
+      showInstallBanner();
+    });
+
+    registerServiceWorker();
+  </script>
+  <script>
+/* Legacy inline shell disabled in favor of public/js/terminal.js. */
+/*
+    const fileSystem = {
+      '/fundamentos_de_programacion_ITLA': {
+        type: 'dir',
+        title: 'Narrative entry point for ITLA 2026',
+        children: {
+          'intro.cpp': { type: 'file', label: 'Course narrative and journal entry' }
+        }
+      },
+      '/ejercicios_con_funciones': {
+        type: 'dir',
+        title: 'Function exercises',
+        children: {
+          'ejercicio 1.cpp': { type: 'file' },
+          'ejercicio 2.cpp': { type: 'file' },
+          'ejercicio 3.cpp': { type: 'file' },
+          'ejercicio 4.cpp': { type: 'file' },
+          'ejercicio 5.cpp': { type: 'file' },
+          'ejercicio 6.cpp': { type: 'file' },
+          'ejercicio 7.cpp': { type: 'file' },
+          'ejercicio 8.cpp': { type: 'file' },
+          'ejercicio 9.cpp': { type: 'file' },
+          'ejercicio 10.cpp': { type: 'file' },
+          'ejercicio 11.cpp': { type: 'file' },
+          'ejercicio 12.cpp': { type: 'file' },
+          'ejercicio 13.cpp': { type: 'file' },
+          'ejercicio 14.cpp': { type: 'file' },
+          'ejercicio 15.cpp': { type: 'file' },
+          'ejercicio 16.cpp': { type: 'file' },
+          'ejercicio 17.cpp': { type: 'file' },
+          'ejercicio 18.cpp': { type: 'file' },
+          'ejercicio 19.cpp': { type: 'file' },
+          'ejercicio 20.cpp': { type: 'file' },
+          'ejercicio 21.cpp': { type: 'file' },
+          'ejercicio 22.cpp': { type: 'file' },
+          'ejercicio 23.cpp': { type: 'file' },
+          'ejercicio 24.cpp': { type: 'file' },
+          'ejercicio 25.cpp': { type: 'file' },
+          'ejercicio 26.cpp': { type: 'file' },
+          'ejercicio 27.cpp': { type: 'file' },
+          'ejercicio 28.cpp': { type: 'file' },
+          'ejercicio 29.cpp': { type: 'file' },
+          'ejercicio 30.cpp': { type: 'file' },
+          'ejercicio 31.cpp': { type: 'file' },
+          'ejercicio 32.cpp': { type: 'file' },
+          'ejercicio 33.cpp': { type: 'file' },
+          'ejercicio 34.cpp': { type: 'file' },
+          'ejercicio 35.cpp': { type: 'file' },
+          'ejercicio 36.cpp': { type: 'file' },
+          'ejercicio 37.cpp': { type: 'file' },
+          'ejercicio 38.cpp': { type: 'file' },
+          'ejercicio 39.cpp': { type: 'file' },
+          'ejercicio 40.cpp': { type: 'file' }
+        }
+      },
+      '/ejercicios_con_struct': {
+        type: 'dir',
+        title: 'Struct-based exercises',
+        children: {
+          'ejercicio 1.cpp': { type: 'file' },
+          'ejercicio 2.cpp': { type: 'file' },
+          'ejercicio 3.cpp': { type: 'file' },
+          'ejercicio 4.cpp': { type: 'file' },
+          'ejercicio 5.cpp': { type: 'file' },
+          'ejercicio 6.cpp': { type: 'file' },
+          'ejercicio 7.cpp': { type: 'file' },
+          'ejercicio 8.cpp': { type: 'file' },
+          'ejercicio 9.cpp': { type: 'file' }
+        }
+      },
+      '/practica_videos': {
+        type: 'dir',
+        title: 'Video practice exercises',
+        children: {
+          'ejercicio 1.cpp': { type: 'file' },
+          'ejercicio 2.cpp': { type: 'file' },
+          'ejercicio 3.cpp': { type: 'file' },
+          'numeros.txt': { type: 'file' },
+          'video.mp4': { type: 'file' }
+        }
+      }
+    };
+
+    const sources = {
+      '/fundamentos_de_programacion_ITLA/intro.cpp': `// ITLA 2026: Fundamentos de Programacion
+// Portfolio narrative entry point
+// Este programa no esta pensado para compilar en pestaña real.
+// Se utiliza para contar la historia desde un terminal retro.
+
+#include <iostream>
+
+int main() {
+    std::cout << "Bienvenido a mi portafolio interactivo de ITLA 2026." << std::endl;
+    std::cout << "Explora los ejercicios con funciones, structs y practica de video." << std::endl;
+    return 0;
+}
+`,
+      '/ejercicios_con_funciones/ejercicio 1.cpp': `#include <iostream>
+
+int sumar(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int resultado = sumar(8, 12);
+    std::cout << "Suma de 8 + 12 = " << resultado << std::endl;
+    return 0;
+}
+`,
+      '/ejercicios_con_funciones/ejercicio 2.cpp': `#include <iostream>
+
+void mostrarMensaje() {
+    std::cout << "Función: El curso de C++ avanza con funciones reutilizables." << std::endl;
+}
+
+int main() {
+    mostrarMensaje();
+    return 0;
+}
+`,
+      '/ejercicios_con_struct/ejercicio 1.cpp': `#include <iostream>
+
+struct Estudiante {
+    std::string nombre;
+    int edad;
+};
+
+int main() {
+    Estudiante jose = {"Jose", 20};
+    std::cout << "Nombre: " << jose.nombre << ", Edad: " << jose.edad << std::endl;
+    return 0;
+}
+`,
+      '/practica_videos/ejercicio 1.cpp': `#include <iostream>
+
+int main() {
+    std::cout << "Video practice: Simulacion de resultados en la pantalla retro." << std::endl;
+    return 0;
+}
+`
+    };
+
+    const simulatedOutput = {
+      '/fundamentos_de_programacion_ITLA/intro.cpp': "Bienvenido a mi portafolio interactivo de ITLA 2026.\nExplora los ejercicios con funciones, structs y practica de video.\n",
+      '/ejercicios_con_funciones/ejercicio 1.cpp': "Suma de 8 + 12 = 20\n",
+      '/ejercicios_con_funciones/ejercicio 2.cpp': "Función: El curso de C++ avanza con funciones reutilizables.\n",
+      '/ejercicios_con_struct/ejercicio 1.cpp': "Nombre: Jose, Edad: 20\n",
+      '/practica_videos/ejercicio 1.cpp': "Video practice: Simulacion de resultados en la pantalla retro.\n"
+    };
+
+    let cwd = '/fundamentos_de_programacion_ITLA';
+    let currentFile = '/fundamentos_de_programacion_ITLA/intro.cpp';
+
+    function pathJoin(base, name) {
+      if (name.startsWith('/')) {
+        return normalize(name);
+      }
+      return normalize(`${base}/${name}`);
+    }
+
+    function normalize(path) {
+      const parts = path.split('/').filter(Boolean);
+      const normalized = [];
+      for (const segment of parts) {
+        if (segment === '.' || segment === '') continue;
+        if (segment === '..') {
+          normalized.pop();
+        } else {
+          normalized.push(segment);
+        }
+      }
+      return '/' + normalized.join('/');
+    }
+
+    function getNode(path) {
+      if (!path.startsWith('/')) {
+        path = normalize(`${cwd}/${path}`);
+      }
+      const segments = path.split('/').filter(Boolean);
+      let node = { type: 'dir', children: fileSystem };
+      if (segments.length === 0) {
+        return { type: 'dir', children: fileSystem };
+      }
+      let current = null;
+      let target = `/${segments[0]}`;
+      current = fileSystem[target];
+      if (!current) return null;
+      for (let i = 1; i < segments.length; i++) {
+        if (!current.children) return null;
+        current = current.children[segments[i]];
+        if (!current) return null;
+      }
+      return current;
+    }
+
+    function listDirectory(path) {
+      const node = getNode(path);
+      if (!node || node.type !== 'dir') return null;
+      return Object.entries(node.children).map(([name, item]) => ({ name, item }));
+    }
+
+    function renderTree() {
+      treeEl.innerHTML = '';
+      Object.entries(fileSystem).forEach(([path, node]) => {
+        if (path === cwd || path === '/fundamentos_de_programacion_ITLA') {
+          const title = document.createElement('div');
+          title.className = 'tree-entry';
+          title.textContent = path.replace('/', '~/');
+          treeEl.appendChild(title);
+          Object.entries(node.children).forEach(([name, item]) => {
+            const link = document.createElement('a');
+            link.href = '#';
+            link.className = 'tree-file';
+            link.textContent = item.type === 'dir' ? `[DIR] ${name}` : name;
+            link.addEventListener('click', event => {
+              event.preventDefault();
+              if (item.type === 'dir') {
+                runCommand(`cd ${name}`);
+              } else {
+                runCommand(`open ${name}`);
+              }
+            });
+            treeEl.appendChild(link);
+          });
+        }
+      });
+    }
+
+    function appendHistory(text, cls = 'line') {
+      const line = document.createElement('div');
+      line.className = cls;
+      line.textContent = text;
+      shellHistory.appendChild(line);
+      shellHistory.scrollTop = shellHistory.scrollHeight;
+    }
+
+    function setPrompt() {
+      promptEl.textContent = `guest@itla:${cwd}$`;
+    }
+
+    function showFile(path) {
+      currentFile = path;
+      const source = sources[path] || `// Source not available in this static build.\n// Use the repository file for the full C++ exercise content.\n`;
+      sourceDisplay.textContent = source;
+      outputDisplay.textContent = `Ready to run: ${path.split('/').pop()}\nType \"run\" or \"run ${path.split('/').pop()}\" to simulate output.\n`;
+    }
+
+    function simulateOutput(path) {
+      if (simulatedOutput[path]) {
+        outputDisplay.textContent = simulatedOutput[path];
+        return;
+      }
+      const source = sources[path] || '';
+      const output = parseCppOutput(source);
+      outputDisplay.textContent = output;
+    }
+
+    function parseCppOutput(code) {
+      if (!code) {
+        return 'No execution data available for this file.\n';
+      }
+      const pattern = /cout\s*<<\s*"([^"\\]*(?:\\.[^"\\]*)*)"/g;
+      const lines = [];
+      let match;
+      while ((match = pattern.exec(code)) !== null) {
+        lines.push(match[1].replace(/\\n/g, '\n'));
+      }
+      return lines.length > 0 ? lines.join('\n') + '\n' : 'Compilation simulated successfully. No standard output detected.\n';
+    }
+
+    function runCommand(raw) {
+      const command = raw.trim();
+      if (!command) return;
+      appendHistory(`${promptEl.textContent} ${command}`, 'line command');
+      const [base, ...args] = command.split(' ').filter(Boolean);
+      switch (base.toLowerCase()) {
+        case 'help':
+          appendHistory('Commands: ls, cd <dir>, open <file>, run [file], clear, help');
+          appendHistory('Use open to inspect code and run to simulate execution.');
+          break;
+        case 'ls': {
+          const list = listDirectory(cwd);
+          if (!list) {
+            appendHistory('No such directory.');
+            break;
+          }
+          list.forEach(entry => {
+            const typeLabel = entry.item.type === 'dir' ? '[DIR] ' : '      ';
+            appendHistory(`${typeLabel}${entry.name}`);
+          });
+          break;
+        }
+        case 'cd': {
+          const target = args.join(' ') || '/fundamentos_de_programacion_ITLA';
+          const newPath = pathJoin(cwd, target.startsWith('/') ? target : target);
+          const node = getNode(newPath);
+          if (!node || node.type !== 'dir') {
+            appendHistory(`cd: no such directory: ${target}`);
+            break;
+          }
+          cwd = newPath;
+          setPrompt();
+          renderTree();
+          appendHistory(`Entered ${cwd}`);
+          break;
+        }
+        case 'open': {
+          const target = args.join(' ');
+          if (!target) {
+            appendHistory('Usage: open <filename>');
+            break;
+          }
+          const filePath = pathJoin(cwd, target);
+          const node = getNode(filePath);
+          if (!node || node.type !== 'file') {
+            appendHistory(`open: file not found: ${target}`);
+            break;
+          }
+          showFile(filePath);
+          appendHistory(`Opened ${target}`);
+          break;
+        }
+        case 'run': {
+          const target = args.join(' ');
+          let filePath = currentFile;
+          if (target) {
+            const candidate = pathJoin(cwd, target);
+            const node = getNode(candidate);
+            if (!node || node.type !== 'file') {
+              appendHistory(`run: file not found: ${target}`);
+              break;
+            }
+            filePath = candidate;
+            showFile(filePath);
+          }
+          appendHistory(`Running ${filePath.split('/').pop()}...`);
+          simulateOutput(filePath);
+          break;
+        }
+        case 'clear':
+          shellHistory.innerHTML = '';
+          break;
+        default:
+          appendHistory(`Command not found: ${base}`);
+      }
+      inputEl.value = '';
+    }
+
+    inputEl.addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        runCommand(inputEl.value);
+      }
+    });
+
+    function showInstallBanner() {
+      installBanner.style.display = 'grid';
+    }
+
+    function hideInstallBanner() {
+      installBanner.style.display = 'none';
+    }
+
+    function registerServiceWorker() {
+      if (!('serviceWorker' in navigator)) return;
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => appendHistory('Service worker registered. Offline support enabled.'))
+        .catch(() => appendHistory('Service worker registration failed.'));
+    }
+
+    installButton.addEventListener('click', async () => {
+      if (!deferredInstallPrompt) return;
+      deferredInstallPrompt.prompt();
+      const choice = await deferredInstallPrompt.userChoice;
+      if (choice.outcome === 'accepted') {
+        appendHistory('App install accepted.');
+      } else {
+        appendHistory('App install dismissed.');
+      }
+      deferredInstallPrompt = null;
+      hideInstallBanner();
+    });
+
+    dismissInstall.addEventListener('click', () => {
+      hideInstallBanner();
+    });
+
+    window.addEventListener('beforeinstallprompt', event => {
+      event.preventDefault();
+      deferredInstallPrompt = event;
+      showInstallBanner();
+    });
+
+    window.addEventListener('appinstalled', () => {
+      appendHistory('Progress portfolio installed as a web app.');
+      hideInstallBanner();
+    });
+
+    function boot() {
+      setPrompt();
+      renderTree();
+      appendHistory('System booting...');
+      appendHistory('Retro ITLA Portfolio initialized. Type help for instructions.');
+      showFile(currentFile);
+      registerServiceWorker();
+      inputEl.focus();
+    }
+
+    boot();
+  */
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/xterm@5.3.0/lib/xterm.min.js"></script>
+  <script src="js/terminal.js"></script>
+</body>
+</html>

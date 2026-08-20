@@ -1,0 +1,911 @@
+{
+  "basePath": "/wasm",
+  "files": [
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 1.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 1.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 1.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 1.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 10.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 10.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 10.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 10.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 11.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 11.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 11.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 11.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 12.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 12.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 12.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 12.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 13.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 13.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 13.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 13.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 14.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 14.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 14.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 14.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 15.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 15.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 15.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 15.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 16.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 16.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 16.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 16.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 17.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 17.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 17.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 17.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 18.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 18.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 18.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 18.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 19.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 19.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 19.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 19.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 2.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 2.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 2.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 2.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 20.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 20.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 20.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 20.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 21.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 21.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 21.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 21.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 22.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 22.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 22.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 22.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 23.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 23.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 23.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 23.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 24.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 24.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 24.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 24.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 25.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 25.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 25.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 25.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 26.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 26.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 26.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 26.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 27.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 27.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 27.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 27.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 28.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 28.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 28.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 28.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 29.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 29.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 29.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 29.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 3.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 3.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 3.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 3.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 30.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 30.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 30.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 30.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 31.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 31.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 31.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 31.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 32.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 32.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 32.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 32.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 33.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 33.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 33.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 33.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 34.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 34.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 34.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 34.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 35.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 35.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 35.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 35.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 36.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 36.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 36.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 36.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 37.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 37.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 37.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 37.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 38.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 38.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 38.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 38.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 39.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 39.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 39.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 39.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 4.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 4.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 4.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 4.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 40.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 40.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 40.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 40.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 5.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 5.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 5.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 5.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 6.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 6.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 6.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 6.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 7.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 7.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 7.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 7.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 8.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 8.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 8.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 8.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con funciones/ejercicio 9.cpp",
+      "displayPath": "ejercicios con funciones/ejercicio 9.cpp",
+      "output": "wasm/ejercicios con funciones/ejercicio 9.js",
+      "outputUrl": "/wasm/ejercicios con funciones/ejercicio 9.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 10.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 10.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 10.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 10.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 2.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 2.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 2.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 2.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 3.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 3.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 3.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 3.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 4.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 4.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 4.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 4.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 5.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 5.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 5.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 5.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 6.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 6.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 6.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 6.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 7.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 7.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 7.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 7.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 8.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 8.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 8.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 8.js"
+    },
+    {
+      "source": "src_cpp/ejercicios con struct/ejercicio 9.cpp",
+      "displayPath": "ejercicios con struct/ejercicio 9.cpp",
+      "output": "wasm/ejercicios con struct/ejercicio 9.js",
+      "outputUrl": "/wasm/ejercicios con struct/ejercicio 9.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/arreglos 1,1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/arreglos 1,1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/arreglos 1,1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/arreglos 1,1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/arreglos 1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/arreglos 1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/arreglos 1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/arreglos 1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/arreglos 2,1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/arreglos 2,1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/arreglos 2,1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/arreglos 2,1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/arreglos 2.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/arreglos 2.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/arreglos 2.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/arreglos 2.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/arreglos 3,1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/arreglos 3,1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/arreglos 3,1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/arreglos 3,1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/binary generator in the screen.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/binary generator in the screen.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/binary generator in the screen.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/binary generator in the screen.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Calcular Area Class POO.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Calcular Area Class POO.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Calcular Area Class POO.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Calcular Area Class POO.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/calPerGram calculator.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/calPerGram calculator.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/calPerGram calculator.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/calPerGram calculator.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Constante1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Constante1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Constante1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Constante1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Cuarta actividad Profesor de Programacion.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Cuarta actividad Profesor de Programacion.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Cuarta actividad Profesor de Programacion.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Cuarta actividad Profesor de Programacion.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Ejemplo if else para fundamentos de programacion.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Ejemplo if else para fundamentos de programacion.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Ejemplo if else para fundamentos de programacion.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Ejemplo if else para fundamentos de programacion.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Ejemplo if else.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Ejemplo if else.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Ejemplo if else.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Ejemplo if else.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejemplo if.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejemplo if.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejemplo if.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejemplo if.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 10.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 10.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 10.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 10.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 11.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 11.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 11.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 11.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 12.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 12.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 12.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 12.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 13.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 13.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 13.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 13.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 14.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 14.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 14.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 14.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 15.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 15.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 15.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 15.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 16.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 16.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 16.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 16.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 17.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 17.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 17.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 17.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 18.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 18.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 18.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 18.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 19.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 19.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 19.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 19.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 2.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 2.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 2.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 2.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 20.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 20.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 20.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 20.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 21.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 21.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 21.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 21.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 22.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 22.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 22.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 22.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 23.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 23.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 23.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 23.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 24.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 24.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 24.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 24.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 25.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 25.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 25.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 25.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 26.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 26.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 26.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 26.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 27.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 27.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 27.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 27.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 28.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 28.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 28.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 28.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 29.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 29.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 29.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 29.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 3.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 3.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 3.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 3.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 30.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 30.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 30.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 30.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 31.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 31.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 31.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 31.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 32.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 32.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 32.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 32.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 33.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 33.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 33.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 33.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 34.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 34.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 34.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 34.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 35.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 35.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 35.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 35.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 36.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 36.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 36.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 36.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 37.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 37.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 37.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 37.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 38.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 38.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 38.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 38.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 39.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 39.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 39.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 39.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 4.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 4.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 4.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 4.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 40.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 40.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 40.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 40.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 5.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 5.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 5.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 5.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 6.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 6.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 6.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 6.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 7.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 7.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 7.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 7.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 8.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 8.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 8.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 8.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 9.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 9.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 9.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con funciones/ejercicio 9.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 10.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 10.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 10.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 10.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 2.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 2.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 2.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 2.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 3.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 3.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 3.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 3.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 4.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 4.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 4.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 4.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 5.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 5.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 5.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 5.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 6.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 6.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 6.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 6.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 7.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 7.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 7.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 7.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 8.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 8.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 8.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 8.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 9.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 9.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 9.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/ejercicios con struct/ejercicio 9.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/entrada de datoscpp.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/entrada de datoscpp.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/entrada de datoscpp.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/entrada de datoscpp.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/main.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/main.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/main.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/main.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Operadores aritmeticos.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Operadores aritmeticos.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Operadores aritmeticos.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Operadores aritmeticos.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Operadores de Asignaci\u00f3n.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Operadores de Asignaci\u00f3n.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Operadores de Asignaci\u00f3n.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Operadores de Asignaci\u00f3n.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Operadores de Comparaci\u00f3n.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Operadores de Comparaci\u00f3n.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Operadores de Comparaci\u00f3n.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Operadores de Comparaci\u00f3n.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/operadores de incremento decremento.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/operadores de incremento decremento.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/operadores de incremento decremento.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/operadores de incremento decremento.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Operadores L\u00f3gicos.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Operadores L\u00f3gicos.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Operadores L\u00f3gicos.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Operadores L\u00f3gicos.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/pagina 1 profesor de programacion.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/pagina 1 profesor de programacion.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/pagina 1 profesor de programacion.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/pagina 1 profesor de programacion.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Clases y Objetos.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Clases y Objetos.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Clases y Objetos.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Clases y Objetos.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Constructores.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Constructores.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Constructores.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Constructores.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - El Destructor.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - El Destructor.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - El Destructor.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - El Destructor.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Encapsulacion (Propiedades y Metodos).cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Encapsulacion (Propiedades y Metodos).cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Encapsulacion (Propiedades y Metodos).js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Encapsulacion (Propiedades y Metodos).js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Metodos consultores (getters).cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Metodos consultores (getters).cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Metodos consultores (getters).js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Metodos consultores (getters).js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Metodos inline.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Metodos inline.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Metodos inline.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Metodos inline.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Metodos modificadores (setters).cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Metodos modificadores (setters).cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Metodos modificadores (setters).js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Metodos modificadores (setters).js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/POO - Objetos temporales.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/POO - Objetos temporales.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/POO - Objetos temporales.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/POO - Objetos temporales.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/practica videos/ejercicio 1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/practica videos/ejercicio 1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/practica videos/ejercicio 1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/practica videos/ejercicio 1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/practica videos/ejercicio 2.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/practica videos/ejercicio 2.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/practica videos/ejercicio 2.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/practica videos/ejercicio 2.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/practica videos/ejercicio 3.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/practica videos/ejercicio 3.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/practica videos/ejercicio 3.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/practica videos/ejercicio 3.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Primera actividad profesor de Programacion.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Primera actividad profesor de Programacion.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Primera actividad profesor de Programacion.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Primera actividad profesor de Programacion.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Secuencia ejemplo.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Secuencia ejemplo.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Secuencia ejemplo.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Secuencia ejemplo.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Segunda actividad profesor de Programacion.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Segunda actividad profesor de Programacion.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Segunda actividad profesor de Programacion.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Segunda actividad profesor de Programacion.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Super Kino TV generador de numeros estrategia.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Super Kino TV generador de numeros estrategia.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Super Kino TV generador de numeros estrategia.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Super Kino TV generador de numeros estrategia.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Tablas de multiplicar.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Tablas de multiplicar.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Tablas de multiplicar.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Tablas de multiplicar.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Tercera Actividad profesor de Programacion.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Tercera Actividad profesor de Programacion.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Tercera Actividad profesor de Programacion.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Tercera Actividad profesor de Programacion.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/tes1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/tes1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/tes1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/tes1.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/test.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/test.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/test.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/test.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/test2.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/test2.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/test2.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/test2.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/test24152.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/test24152.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/test24152.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/test24152.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/test3.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/test3.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/test3.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/test3.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Tipo char.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Tipo char.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Tipo char.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Tipo char.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Tipo de dato.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Tipo de dato.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Tipo de dato.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Tipo de dato.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/tipos de datos float y double.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/tipos de datos float y double.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/tipos de datos float y double.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/tipos de datos float y double.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Untitled15187.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Untitled15187.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Untitled15187.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Untitled15187.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Untitled2.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Untitled2.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Untitled2.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Untitled2.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Untitled7.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Untitled7.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Untitled7.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Untitled7.js"
+    },
+    {
+      "source": "src_cpp/Fundamentos de Programacion ITLA/Variables1.cpp",
+      "displayPath": "Fundamentos de Programacion ITLA/Variables1.cpp",
+      "output": "wasm/Fundamentos de Programacion ITLA/Variables1.js",
+      "outputUrl": "/wasm/Fundamentos de Programacion ITLA/Variables1.js"
+    },
+    {
+      "source": "src_cpp/practica videos/ejercicio 1.cpp",
+      "displayPath": "practica videos/ejercicio 1.cpp",
+      "output": "wasm/practica videos/ejercicio 1.js",
+      "outputUrl": "/wasm/practica videos/ejercicio 1.js"
+    },
+    {
+      "source": "src_cpp/practica videos/ejercicio 2.cpp",
+      "displayPath": "practica videos/ejercicio 2.cpp",
+      "output": "wasm/practica videos/ejercicio 2.js",
+      "outputUrl": "/wasm/practica videos/ejercicio 2.js"
+    },
+    {
+      "source": "src_cpp/practica videos/ejercicio 3.cpp",
+      "displayPath": "practica videos/ejercicio 3.cpp",
+      "output": "wasm/practica videos/ejercicio 3.js",
+      "outputUrl": "/wasm/practica videos/ejercicio 3.js"
+    }
+  ]
+}
